@@ -1,0 +1,38 @@
+i{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.error{
+    width: 90%;
+    padding: 0px;
+    color: rgb(255, 115, 0);
+    display: block;
+    font-size: 12px;
+    margin-top: 1.4px;
+    margin-left: 0px;
+    font-family:monospace;
+    font-weight: 600;
+}
+.iconAcierto{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    position:absolute;
+    transform: translateY(-50%);
+    transform: translateX(-95%);
+    background-image: url('Imagenes/acierto.png');
+}
+.iconError{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    position: absolute;
+    transform: translateY(-50%);
+    transform: translateX(-95%);
+    background-image: url('Imgenes/tache.png');
+}
+.mensaje{
+    font-family: cursive;
+    color:rgb(11, 11, 136);
+    margin-left: 600px;
+}

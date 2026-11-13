@@ -1,0 +1,102 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+nav{
+    margin-left: 1%;
+    padding: 10px;
+    width: 10%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    left: 5%;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+    margin: 5px 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(177, 129, 66);
+}
+.imagen{
+    background-color: burlywood;
+    width: 40%;
+    height: 40%;
+}
+
+.seccion{
+    background-color: burlywood;
+    width: 50%;
+    height: 500px;
+    margin-left: 18%;
+    color: black;
+    margin-top: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.coyotito{
+    position: fixed; 
+    bottom: 200px;   
+    right: 10px;     
+    width: 100px;   
+    height: auto;   
+    z-index: 1000;   
+    margin-top: -40%;
+    margin-left: 74%;
+    width: auto;
+    height: auto;
+}
+
+
+.contenedor{
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: auto;    
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.fotoperfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.boton{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    background-color: rgb(141, 91, 51);
+    border-radius: 5px;
+    color: rgb(221, 160, 103);
+    font-family: 'Times New Roman', Times, serif;
+    border-color: rgb(141, 91, 51);
+}
+
+.boton:hover{
+    background-color: rgba(221, 160, 103, 0.678);
+    color: rgb(141, 91, 51);
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: rgba(221, 160, 103, 0.678);
+}

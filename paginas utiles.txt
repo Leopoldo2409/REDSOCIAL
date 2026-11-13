@@ -1,0 +1,8 @@
+- iconify <---- iconos
+- uiverse.io <----botones
+
+INSERT INTO `amigos`(`mi_id`, `id_amigo`, `fotoperfil`, `nombre`, `apellidos`) VALUES (1,2,'../fotodeperfil/perfil_674bfce41410d1.08242945.jpg','Sergio','castro');
+
+INSERT INTO `amigos`(`mi_id`, `id_amigo`, `fotoperfil`, `nombre`, `apellidos`) VALUES (1,3,'../fotodeperfil/perfil_674bfce41410d1.08242945.jpg','Gotoh','Hitori');
+
+INSERT INTO `amigos`(`mi_id`, `id_amigo`, `fotoperfil`, `nombre`, `apellidos`) VALUES (1,4,'../fotodeperfil/perfil_674bfce41410d1.08242945.jpg','Hola','Soy german');
